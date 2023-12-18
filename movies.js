@@ -76,5 +76,14 @@ export function howManyMovies(array){
 
 // Order by title and print the first 20 titles
 
+ export const orderAlphabetically = (movies) => {
+    return movies.slice(0, 20).map((movie) => movie.title).sort();
+  };
+  
+  
 
 // Best yearly rate average
+// movies.js
+
+
+  
